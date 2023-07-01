@@ -93,7 +93,7 @@ maxRows={4}
 autoFocus
 value={input}
 onChange={(e) => setInput(e.target.value)}
-placeholder='How May We Assist You Today ?           Press Enter to Send'
+placeholder='How May We Assist You Today ?'
 className=' pr-14 resize-none w-full block border-0 bg-slate-100 text-black py-1.5 
 focus:ring-0 text-sm sm:leading-6'
 />

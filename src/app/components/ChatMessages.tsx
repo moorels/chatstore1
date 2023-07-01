@@ -22,7 +22,7 @@ const ChatMessages: FC<ChatMessagesProps> = ({ className, ...props }) => {
       <div className='flex-1 flex-grow ' />
       {inverseMessages.map((message) => {
         return (
-          <div className='chat-message' key={`${message.id}-${message.id}`}>
+          <div className='chat-message  h-96' key={`${message.id}-${message.id}`}>
             <div
               className={cn('flex items-end', {
                 'justify-end': message.isUserMessage,
@@ -33,7 +33,7 @@ const ChatMessages: FC<ChatMessagesProps> = ({ className, ...props }) => {
                   'order-2 items-start': !message.isUserMessage,
                 })}>
                 <p
-                  className={cn('px-2 py-1 rounded-lg text-[16px] font-extrabold', {
+                  className={cn('px-2 py-1 rounded-lg text-[13px] font-extrabold', {
                     'bg-gray-200 text-white': message.isUserMessage,
                     'bg-gray-200 text-gray-900': !message.isUserMessage,
                   })}><SyntaxHighlighter  className={<p
