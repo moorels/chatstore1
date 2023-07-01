@@ -16,7 +16,7 @@ export default function Home() {
           <p className=' text-xl py-4'>Computer Repairs Services</p>
           <p className="leading-relaxed mb-6 items-center text-center">
 Computer Repairs Services Store A.I Assistant
-Browse out example integration into a computer store below that handles sales and repairs of computers.
+Browse our example integration into a computer store below that handles sales and repairs of computers.
 Ask any questions you would generally ask a customer service staff member, to explore the depth of our 
 Automated assistant.
           </p>
